@@ -144,7 +144,7 @@ INSERT INTO cars (brand, model, year, type, daily_rate, image_url, description, 
 
 ### Step 4: Access the Application
 1. Open your web browser
-2. Navigate to `http://localhost/KotseKoTo/`
+2. Navigate to `http://localhost/kotsekoto/`
 3. The application is ready to use!
 
 ## Default Admin Account
