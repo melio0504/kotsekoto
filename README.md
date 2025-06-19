@@ -190,12 +190,4 @@ KotseKoTo/
 
 ## License
 
-This project is for educational and demonstration purposes. Feel free to modify and use for your own projects.
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
+This project is licensed under the MIT License. It is intended for educational and demonstration purposes.
