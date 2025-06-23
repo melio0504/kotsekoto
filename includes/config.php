@@ -57,7 +57,7 @@ function createTables($conn) {
         fuel_type ENUM('gasoline', 'diesel', 'electric', 'hybrid') DEFAULT 'gasoline',
         mileage INT DEFAULT 0,
         features TEXT,
-        status ENUM('available', 'unavailable', 'maintenance') DEFAULT 'available',
+        status ENUM('available', 'unavailable') DEFAULT 'available',
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
     )";

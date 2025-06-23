@@ -133,7 +133,6 @@ $car_stats = getCarStats();
                                     <option value="">All Status</option>
                                     <option value="available">Available</option>
                                     <option value="unavailable">Unavailable</option>
-                                    <option value="maintenance">Maintenance</option>
                                 </select>
                             </div>
                             <div>
@@ -277,7 +276,6 @@ $car_stats = getCarStats();
                         <select id="carStatus" name="status" required class="w-full p-2 border rounded-lg">
                             <option value="available">Available</option>
                             <option value="unavailable">Unavailable</option>
-                            <option value="maintenance">Maintenance</option>
                         </select>
                     </div>
                     <div>
@@ -564,7 +562,6 @@ $car_stats = getCarStats();
             switch(status) {
                 case 'available': return 'bg-green-100 text-green-800';
                 case 'unavailable': return 'bg-red-100 text-red-800';
-                case 'maintenance': return 'bg-yellow-100 text-yellow-800';
                 default: return 'bg-gray-100 text-gray-800';
             }
         }
